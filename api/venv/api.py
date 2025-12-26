@@ -9,7 +9,7 @@ from datetime import date
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = 'mnpPJeIBGqdmWMgaMaVxQ'
+API_KEY = '///////////'
 url = 'https://www.carboninterface.com/api/v1/estimates'
 headers = {
     'Authorization': f'Bearer {API_KEY}',
